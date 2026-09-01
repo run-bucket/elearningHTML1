@@ -1,4 +1,4 @@
-/* reset */
+/* RESET */
 
    * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 
-/* body */
+/* BODY */
 
 body {
     font-family: Arial, sans-serif;
@@ -16,7 +16,7 @@ body {
 }
 
 
-/* navigasi*/
+/* NAVBAR */
 
 .navbar {
     width: 100%;
@@ -34,7 +34,7 @@ body {
 }
 
 
-/* logo */
+/* LOGO */
 
 .logo {
     width: 60px;
@@ -53,7 +53,7 @@ body {
 }
 
 
-/* menu */
+/* MENU */
 
 .menu {
     display: flex;
@@ -69,7 +69,7 @@ body {
 }
 
 
-/* ingfo */
+/* HERO */
 
 .hero {
     width: 100%;
@@ -93,7 +93,7 @@ body {
 }
 
 
-/* section title */
+/* SECTION TITLE */
 
 .section-title {
     width: 106px;
@@ -114,7 +114,7 @@ body {
 }
 
 
-/* service */
+/* SERVICES */
 
 .services {
     min-height: 230px;
@@ -127,7 +127,7 @@ body {
 }
 
 
-/* container service */
+/* CONTAINER SERVICE */
 
 .service-container {
     width: 100%;
@@ -142,14 +142,14 @@ body {
 }
 
 
-/* card service */
+/* CARD SERVICE */
 
 .service-card {
     flex: 1;
 }
 
 
-/* heading service */
+/* HEADING SERVICE */
 
 .service-heading {
     font-size: 24px;
@@ -160,7 +160,7 @@ body {
 }
 
 
-/* text service */
+/* TEXT SERVICE */
 
 .service-text {
     font-size: 12px;
@@ -171,7 +171,7 @@ body {
 }
 
 
-/* about */
+/* ABOUT */
 
 .about {
     min-height: 280px;
@@ -184,7 +184,7 @@ body {
 }
 
 
-/* deskripsi */
+/* DESKRIPSI ABOUT */
 
 .about-description {
     margin-top: 30px;
@@ -195,7 +195,7 @@ body {
 }
 
 
-/* container */
+/* CONTAINER ABOUT */
 
 .about-container {
     display: flex;
@@ -208,14 +208,14 @@ body {
 }
 
 
-/* text */
+/* BAGIAN TEXT */
 
 .about-text {
     width: 50%;
 }
 
 
-/* about heading */
+/* HEADING ABOUT */
 
 .about-heading {
     font-size: 24px;
@@ -226,7 +226,7 @@ body {
 }
 
 
-/* about paragraph */
+/* PARAGRAPH ABOUT */
 
 .about-paragraph {
     font-size: 12px;
@@ -237,7 +237,7 @@ body {
 }
 
 
-/* performance */
+/* PERFORMANCE */
 
 .about-performance {
     width: 50%;
@@ -246,7 +246,7 @@ body {
 }
 
 
-/* heading */
+/* PERFORMANCE HEADING */
 
 .performance-heading {
     font-size: 24px;
@@ -257,7 +257,7 @@ body {
 }
 
 
-/* gambar abstrak */
+/* WAVE / GAMBAR ABSTRAK */
 
 .wave {
     width: 170px;
@@ -277,7 +277,10 @@ body {
 }
 
 
-/* meliuk liukkk*/
+/*
+   Membuat bentuk tambahan sehingga
+   terlihat seperti gelombang
+*/
 
 .wave::before {
     content: "";
@@ -394,9 +397,7 @@ body {
 }
 
 
-/* ==================================================
-   FOOTER
-   ================================================== */
+/* FOOTER */
 
 .footer {
     width: 100%;
@@ -421,9 +422,7 @@ body {
 }
 
 
-/* ==================================================
-   RESPONSIVE
-   ================================================== */
+/* RESPONSIVE */
 
 @media (max-width: 600px) {
 
