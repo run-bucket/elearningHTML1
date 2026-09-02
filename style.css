@@ -223,24 +223,70 @@ body {
 
 /* WAVE SHAPE */
 
+/* =========================
+   WAVE SHAPE - REVISION
+========================= */
+
 .wave {
     width: 170px;
-    height: 55px;
+    height: 58px;
 
-    background-color: white;
+    background: white;
 
     border: 1px solid black;
 
-    margin-top: 15px;
+    position: relative;
 
-    /*
-       Creates the curved/wave-like shape
-    */
+    overflow: hidden;
 
-    border-radius:
-        0
-        45% 45%
-        0;
+    /* Main curved shape */
+    border-radius: 50% 50% 50% 50% / 70% 70% 70% 70%;
+
+    transform: rotate(-1deg);
+}
+
+
+/* Cut-out to create the S/wave effect */
+
+.wave::before {
+    content: "";
+
+    position: absolute;
+
+    width: 135px;
+    height: 55px;
+
+    background: #e1d5e7;
+
+    border: 1px solid black;
+
+    border-radius: 50%;
+
+    top: -27px;
+    left: -20px;
+
+    transform: rotate(8deg);
+}
+
+
+/* Second cut-out */
+
+.wave::after {
+    content: "";
+
+    position: absolute;
+
+    width: 135px;
+    height: 55px;
+
+    background: #e1d5e7;
+
+    border-radius: 50%;
+
+    bottom: -27px;
+    right: -20px;
+
+    transform: rotate(8deg);
 }
 
 
