@@ -223,71 +223,20 @@ body {
 
 /* WAVE SHAPE */
 
-/* =========================
-   WAVE SHAPE - REVISION
-========================= */
-
-.wave {
+.wave-box {
     width: 170px;
-    height: 58px;
+    height: 70px;
 
-    background: white;
-
-    border: 1px solid black;
-
-    position: relative;
-
-    overflow: hidden;
-
-    /* Main curved shape */
-    border-radius: 50% 50% 50% 50% / 70% 70% 70% 70%;
-
-    transform: rotate(-1deg);
+    margin-top: 10px;
 }
 
+.wave-box svg {
+    width: 170px;
+    height: 70px;
 
-/* Cut-out to create the S/wave effect */
-
-.wave::before {
-    content: "";
-
-    position: absolute;
-
-    width: 135px;
-    height: 55px;
-
-    background: #e1d5e7;
-
-    border: 1px solid black;
-
-    border-radius: 50%;
-
-    top: -27px;
-    left: -20px;
-
-    transform: rotate(8deg);
+    display: block;
 }
 
-
-/* Second cut-out */
-
-.wave::after {
-    content: "";
-
-    position: absolute;
-
-    width: 135px;
-    height: 55px;
-
-    background: #e1d5e7;
-
-    border-radius: 50%;
-
-    bottom: -27px;
-    right: -20px;
-
-    transform: rotate(8deg);
-}
 
 
 /* CONTACT */
