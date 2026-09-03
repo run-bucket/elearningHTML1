@@ -33,9 +33,9 @@ body {
 
     height: 80px;
 
-    background-color: #ffe6cc;
+    background-color: #1f1f1f;
 
-    border-bottom: 1px solid #e0a000;
+    border-bottom: 1px solid #1f1f1f;
 
     display: flex;
 
@@ -92,7 +92,7 @@ body {
 
 .navbar a {
 
-    color: #111111;
+    color: #ffffff;
 
     text-decoration: none;
 
@@ -114,17 +114,19 @@ body {
 ================================================== */
 
 .hero {
-
     min-height: 500px;
 
-    background-color: #dae8fc;
+    background-image: url("assets/img/batcave.png");
 
-    border-bottom: 1px solid #9db9df;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    border-bottom: 1px solid #464646;
 
     display: flex;
-
     align-items: center;
-
 }
 
 
@@ -158,6 +160,7 @@ body {
     letter-spacing: 3px;
 
     margin-bottom: 10px;
+    color: whitesmoke;
 
 }
 
@@ -168,6 +171,7 @@ body {
     margin: 0;
 
     line-height: 1.1;
+    color: floralwhite;
 
 }
 
@@ -179,7 +183,7 @@ body {
 
     margin: 15px 0;
 
-    color: #345678;
+    color:whitesmoke
 
 }
 
@@ -190,6 +194,7 @@ body {
     font-size: 16px;
 
     line-height: 1.7;
+    color: whitesmoke;
 
 }
 
@@ -203,6 +208,7 @@ body {
     gap: 15px;
 
     margin-top: 30px;
+    color:white
 
 }
 
@@ -233,23 +239,32 @@ body {
 ================================================== */
 
 .section-title {
-
     width: fit-content;
-
     margin: 0 auto 50px;
+    padding: 10px 32px;
 
-    padding: 12px 35px;
+    background-color: #111111;
+    color: #f5c518;
 
-    background-color: #ffffff;
+    border: 1px solid #f5c518;
+    border-radius: 2px;
 
-    border: 1px solid #111111;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 
-    border-radius: 8px;
+    box-shadow: 4px 4px 0 #f5c518;
 
-    font-size: 16px;
+    transition: all 0.25s ease;
+}
 
-    font-weight: bold;
+.section-title:hover {
+    background-color: #f5c518;
+    color: #111111;
 
+    box-shadow: 0 0 0 #111111;
+    transform: translate(2px, 2px);
 }
 
 
@@ -259,11 +274,11 @@ body {
 
 .about {
 
-    background-color: #e1d5e7;
+    background-color: #929292;
 
     padding: 80px 40px;
 
-    border-bottom: 1px solid #b18bc4;
+    border-bottom: 1px solid #2e2e2e;
 
 }
 
@@ -284,6 +299,33 @@ body {
 
 }
 
+.project-btn {
+    background-color: rgb(75, 74, 73);
+    color: #ffffff;
+    border: 1px solid rgb(75, 74, 73);
+    padding: 10px 22px;
+    border-radius: 5px;
+}
+
+.project-btn:hover {
+    background-color: rgb(22, 22, 22);
+    color: #ffffff;
+    border-color: #000000;
+}
+
+.contact-btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    padding: 10px 22px;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+}
 
 /* ABOUT IMAGE */
 
@@ -380,7 +422,7 @@ body {
 
 .skills {
 
-    background-color: #fff2cc;
+    background-color: #141414;
 
     padding: 80px 40px;
 
@@ -601,7 +643,7 @@ body {
 
 .contact {
 
-    background-color: #d5e8d4;
+    background-color: #141414;
 
     padding: 80px 40px;
 
@@ -630,6 +672,7 @@ body {
     font-size: 32px;
 
     margin: 10px 0 20px;
+    color: whitesmoke;
 
 }
 
@@ -638,6 +681,7 @@ body {
     font-size: 14px;
 
     line-height: 1.7;
+    color: whitesmoke;
 
 }
 
@@ -645,12 +689,14 @@ body {
 .contact-links {
 
     margin-top: 30px;
+    color: whitesmoke;
 
 }
 
 .contact-links p {
 
     font-size: 13px;
+    color: whitesmoke;
 
 }
 
@@ -671,7 +717,7 @@ body {
 
     height: 45px;
 
-    border: 1px solid #999999;
+    border: 1px solid #ffffff;
 
     border-radius: 5px;
 
@@ -685,7 +731,7 @@ body {
 
     height: 130px;
 
-    border: 1px solid #999999;
+    border: 1px solid #ffffff;
 
     border-radius: 5px;
 
@@ -726,9 +772,9 @@ body {
 
     min-height: 80px;
 
-    background-color: #ffe6cc;
+    background-color: rgb(245, 220, 0);
 
-    border-top: 1px solid #e0a000;
+    border-top: 1px solid #c79109;
 
     display: flex;
 
